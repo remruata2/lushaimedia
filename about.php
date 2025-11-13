@@ -247,51 +247,27 @@
 
         <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">
 
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="client-logo text-client">
+              <span>The Grand Hotel, Aizawl</span>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="client-logo text-client">
+              <span>Integrated Child Protection Scheme</span>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="client-logo text-client">
+              <span>Land Revenue and Settlement Department</span>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-7.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="client-logo text-client">
+              <span>Leikapui Studios</span>
             </div>
           </div>
 
@@ -303,3 +279,4 @@
   </main><!-- End #main -->
 
 <?php include 'footer.php'; ?>
+

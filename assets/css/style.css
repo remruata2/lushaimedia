@@ -999,6 +999,30 @@ section {
 	transform: scale(1.1);
 }
 
+.clients .client-logo.text-client {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #2b2b2b;
+  transition: all 0.3s ease;
+}
+
+.clients .client-logo.text-client span {
+  display: block;
+  line-height: 1.4;
+}
+
+.clients .client-logo.text-client:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, rgba(27, 189, 54, 0.08), rgba(42, 225, 73, 0.15));
+  color: #1bbd36;
+}
+
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
