@@ -1,3 +1,4 @@
+<?php $currentPage = 'home'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,50 +41,7 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center">
-
-      <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/lmlogotext.png" alt="Lushai Media" class="img-fluid"></a>
-
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-
-          <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="team.html">Team</a></li>
-              <li><a href="testimonials.html">Testimonials</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-      <div class="header-social-links d-flex">
-        <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bu bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
-      </div>
-
-    </div>
-  </header><!-- End Header -->
+<?php include 'header.php'; ?>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
@@ -97,32 +55,11 @@
             <div class="carousel-content animate__animated animate__fadeInUp">
               <h2>We are the <span>Digital Architect</span></h2>
               <p>Building scalable web applications powered by the latest technological tools and AI-enhanced solutions. Transforming businesses through innovation.</p>
-              <div class="text-center"><a href="about.html" class="btn-get-started">Learn More</a></div>
+              <div class="text-center"><a href="about.php" class="btn-get-started">Learn More</a></div>
             </div>
           </div>
         </div>
 
-        <!-- Slide 2 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg);">
-          <div class="carousel-container">
-            <div class="carousel-content animate__animated animate__fadeInUp">
-              <h2>Future-Proof Your Business</h2>
-              <p>With seamless web apps, AI-driven insights, and IoT connectivity. Discover > Develop > Deploy</p>
-              <div class="text-center"><a href="services.html" class="btn-get-started">Our Services</a></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide 3 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
-          <div class="carousel-container">
-            <div class="carousel-content animate__animated animate__fadeInUp">
-              <h2>Custom Software Solutions</h2>
-              <p>From Enterprise ERP systems to OTT platforms, we deliver cutting-edge technology solutions tailored to your needs.</p>
-              <div class="text-center"><a href="portfolio.html" class="btn-get-started">View Portfolio</a></div>
-            </div>
-          </div>
-        </div>
 
       </div>
 
@@ -210,7 +147,7 @@
     </section><!-- End About Us Section -->
 
     <!-- ======= Statistics Section ======= -->
-    <section id="stats" class="stats section-bg">
+    <!-- <section id="stats" class="stats section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="row">
@@ -256,7 +193,8 @@
         </div>
 
       </div>
-    </section><!-- End Statistics Section -->
+    </section> -->
+    <!-- End Statistics Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
@@ -274,10 +212,10 @@
               <div class="service-preview-icon">
                 <i class="bx bx-code-alt"></i>
               </div>
-              <h4><a href="services.html">Software Development</a></h4>
+              <h4><a href="services.php">Software Development</a></h4>
               <p class="service-preview-subtitle">Custom & Scalable Web & Mobile Apps</p>
               <p>We develop secure, scalable, and user-centric web and mobile applications tailored exactly to your business logic and needs.</p>
-              <a href="services.html" class="service-preview-link">Learn More <i class="bi bi-arrow-right"></i></a>
+              <a href="services.php" class="service-preview-link">Learn More <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
@@ -287,10 +225,10 @@
               <div class="service-preview-icon">
                 <i class="bx bx-mobile"></i>
               </div>
-              <h4><a href="services.html">Mobile App Development</a></h4>
+              <h4><a href="services.php">Mobile App Development</a></h4>
               <p class="service-preview-subtitle">Native & Cross-Platform Mobile Applications</p>
               <p>We build high-performance mobile applications for iOS and Android platforms, delivering seamless user experiences that engage users and drive business growth.</p>
-              <a href="services.html" class="service-preview-link">Learn More <i class="bi bi-arrow-right"></i></a>
+              <a href="services.php" class="service-preview-link">Learn More <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
@@ -300,10 +238,10 @@
               <div class="service-preview-icon">
                 <i class="bx bx-tv"></i>
               </div>
-              <h4><a href="services.html">Streaming App (OTT Platform) Development</a></h4>
+              <h4><a href="services.php">Streaming App (OTT Platform) Development</a></h4>
               <p class="service-preview-subtitle">Launch Your Channel: End-to-End OTT Platform</p>
               <p>Create your premium, global streaming experience with multi-device support, flexible monetization, and advanced content protection.</p>
-              <a href="services.html" class="service-preview-link">Learn More <i class="bi bi-arrow-right"></i></a>
+              <a href="services.php" class="service-preview-link">Learn More <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
@@ -313,10 +251,10 @@
               <div class="service-preview-icon">
                 <i class="bx bx-brain"></i>
               </div>
-              <h4><a href="services.html">AI-Assisted Solution</a></h4>
+              <h4><a href="services.php">AI-Assisted Solution</a></h4>
               <p class="service-preview-subtitle">Process Automation & Decision Support</p>
               <p>Leverage advanced Machine Learning and AI to create intelligent systems that automate tasks and provide deep business insights with high accuracy.</p>
-              <a href="services.html" class="service-preview-link">Learn More <i class="bi bi-arrow-right"></i></a>
+              <a href="services.php" class="service-preview-link">Learn More <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
@@ -326,17 +264,17 @@
               <div class="service-preview-icon">
                 <i class="bx bx-briefcase-alt"></i>
               </div>
-              <h4><a href="services.html">IT Consultancy Services</a></h4>
+              <h4><a href="services.php">IT Consultancy Services</a></h4>
               <p class="service-preview-subtitle">Digital Transformation & Technology Roadmap</p>
               <p>Gain unbiased, expert strategy on aligning technology (AI, IoT, Cloud) with your business objectives to maximize ROI and minimize technical debt.</p>
-              <a href="services.html" class="service-preview-link">Learn More <i class="bi bi-arrow-right"></i></a>
+              <a href="services.php" class="service-preview-link">Learn More <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
         </div>
 
         <div class="text-center mt-5" data-aos="fade-up">
-          <a href="services.html" class="btn-get-started">View All Services</a>
+          <a href="services.php" class="btn-get-started">View All Services</a>
         </div>
 
       </div>
@@ -357,13 +295,13 @@
           <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
             <div class="portfolio-card">
               <div class="portfolio-card-image">
-                <img src="assets/img/portfolio/aichat.png" class="img-fluid" alt="AI-Powered Data Management">
+                <img src="assets/img/portfolio/@ai-chat.jpg" class="img-fluid" alt="AI-Powered Data Management">
                 <div class="portfolio-card-overlay">
                   <div class="portfolio-card-content">
                     <h3>AI-Powered Data Management</h3>
                     <p class="portfolio-tagline">AI Database</p>
                     <p class="portfolio-description">Revolutionary AI technology for intelligent data processing, OCR integration, and conversational query capabilities.</p>
-                    <a href="ai-database.html" class="btn-view-details">View Details <i class="bi bi-arrow-right"></i></a>
+                    <a href="ai-database.php" class="btn-view-details">View Details <i class="bi bi-arrow-right"></i></a>
                   </div>
                 </div>
               </div>
@@ -380,7 +318,7 @@
                     <h3>Hotel ERP Solution</h3>
                     <p class="portfolio-tagline">Enterprise Resource Planning</p>
                     <p class="portfolio-description">Comprehensive hotel management system streamlining operations from reservations to billing with automated intelligence.</p>
-                    <a href="hotel-erp.html" class="btn-view-details">View Details <i class="bi bi-arrow-right"></i></a>
+                    <a href="hotel-erp.php" class="btn-view-details">View Details <i class="bi bi-arrow-right"></i></a>
                   </div>
                 </div>
               </div>
@@ -397,7 +335,7 @@
                     <h3>ICPS Facilitation</h3>
                     <p class="portfolio-tagline">Integrated Child Protection Scheme</p>
                     <p class="portfolio-description">State-wide digital platform automating reporting, ensuring data integrity, and streamlining child protection workflows.</p>
-                    <a href="icps.html" class="btn-view-details">View Details <i class="bi bi-arrow-right"></i></a>
+                    <a href="icps.php" class="btn-view-details">View Details <i class="bi bi-arrow-right"></i></a>
                   </div>
                 </div>
               </div>
@@ -414,7 +352,7 @@
                     <h3>Leikapui Studios</h3>
                     <p class="portfolio-tagline">OTT Platform</p>
                     <p class="portfolio-description">Creator-first streaming platform for Mizo cinema with enterprise-grade DRM protection and flexible monetization.</p>
-                    <a href="leikapui.html" class="btn-view-details">View Details <i class="bi bi-arrow-right"></i></a>
+                    <a href="leikapui.php" class="btn-view-details">View Details <i class="bi bi-arrow-right"></i></a>
                   </div>
                 </div>
               </div>
@@ -424,7 +362,7 @@
         </div>
 
         <div class="text-center mt-5" data-aos="fade-up">
-          <a href="portfolio.html" class="btn-get-started">View All Projects</a>
+          <a href="portfolio.php" class="btn-get-started">View All Projects</a>
         </div>
 
       </div>
@@ -594,105 +532,11 @@
         <div class="cta-section">
           <h3>Ready to Transform Your Business?</h3>
           <p>Let's discuss how our innovative IT solutions can help you achieve your technology goals and drive growth.</p>
-          <a href="contact.html" class="btn-cta">Get In Touch</a>
+          <a href="contact.php" class="btn-cta">Get In Touch</a>
         </div>
       </div>
     </section>
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Lushai Media</h3>
-            <p>
-              N10-76, Bawngkawn <br>
-              Aizawl, Mizoram<br>
-              India <br><br>
-              <strong>Phone:</strong> 7005584288 / 8787793179<br>
-              <strong>Email:</strong> admin@lushaimedia.in<br>
-              <strong>GSTIN:</strong> 15ALPPL3782J1ZL<br>
-            </p>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="services.html">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="portfolio.html">Portfolio</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="services.html">Software Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="services.html">Mobile App Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="services.html">OTT Platform Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="services.html">AI-Assisted Solutions</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="services.html">IT Consultancy Services</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Stay updated with the latest technology trends, AI innovations, and software development insights from Lushai Media.</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="container d-md-flex py-4">
-
-      <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Lushai Media</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/company-free-html-bootstrap-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
-      </div>
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
-</html>
+<?php include 'footer.php'; ?>
