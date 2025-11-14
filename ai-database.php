@@ -66,6 +66,9 @@
 								Transform dormant scanned documents into intelligent, searchable
 								databases with conversational AI capabilities.
 							</p>
+							<p style="font-size: 18px; opacity: 0.9; margin-top: 15px; font-style: italic; color: rgba(202, 187, 248, 0.9);">
+								Powered by Google Gemini
+							</p>
 						</div>
 						<div class="col-lg-6" data-aos="fade-left">
 							<img

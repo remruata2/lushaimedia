@@ -81,6 +81,7 @@
                     <h3>AI-Powered Data Management</h3>
                     <p class="portfolio-tagline">AI Database</p>
                     <p class="portfolio-description">Revolutionary AI technology for intelligent data processing, OCR integration, and conversational query capabilities.</p>
+                    <p class="portfolio-powered" style="font-size: 12px; opacity: 0.9; margin-top: 10px; font-style: italic;">Powered by Google Gemini</p>
                     <a href="ai-database.php" class="btn-view-details">View Details <i class="bi bi-arrow-right"></i></a>
                   </div>
                 </div>
