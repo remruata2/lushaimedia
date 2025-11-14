@@ -44,42 +44,40 @@
 <?php include 'header.php'; ?>
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
-
-      <div class="carousel-inner" role="listbox">
-
-        <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg);">
-          <div class="carousel-container">
-            <div class="carousel-content animate__animated animate__fadeInUp">
-              <h2>We are the <span>Digital Architect</span></h2>
-              <p>Building scalable web applications powered by the latest technological tools and AI-enhanced solutions. Transforming businesses through innovation.</p>
-              <div class="text-center"><a href="about.php" class="btn-get-started">Learn More</a></div>
+  <section id="hero" class="hero-text-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6" data-aos="fade-right">
+          <h1 class="hero-main-heading">We are the <span>Digital Architect</span></h1>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <p class="hero-description">We provide the best software development and IT consulting services for all your needs with unlimited support services.</p>
+          <div class="hero-features">
+            <div class="hero-feature-item">
+              <i class="ri-check-line"></i>
+              <span>Custom Web & Mobile Applications</span>
+            </div>
+            <div class="hero-feature-item">
+              <i class="ri-check-line"></i>
+              <span>AI-Powered Solutions</span>
+            </div>
+            <div class="hero-feature-item">
+              <i class="ri-check-line"></i>
+              <span>24/7 Support & Maintenance</span>
             </div>
           </div>
+          <div class="hero-cta">
+            <a href="contact.php" class="btn-hero-primary">Get Started Now <i class="bi bi-arrow-right"></i></a>
+          </div>
         </div>
-
-
       </div>
-
-      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-      </a>
-
-      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-      </a>
-
-      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
-
     </div>
   </section><!-- End Hero -->
 
   <main id="main">
 
     <!-- ======= About Us Section ======= -->
-    <section id="about-us" class="about-us">
+    <!-- <section id="about-us" class="about-us">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -144,7 +142,7 @@
         </div>
 
       </div>
-    </section><!-- End About Us Section -->
+    </section>End About Us Section -->
 
     <!-- ======= Statistics Section ======= -->
     <!-- <section id="stats" class="stats section-bg">
