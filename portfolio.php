@@ -75,7 +75,7 @@
           <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
             <div class="portfolio-card">
               <div class="portfolio-card-image">
-                <img src="assets/img/portfolio/@ai-chat.jpg" class="img-fluid" alt="AI-Powered Data Management">
+                <img src="assets/img/portfolio/aichat.jpg" class="img-fluid" alt="AI-Powered Data Management">
                 <div class="portfolio-card-overlay">
                   <div class="portfolio-card-content">
                     <h3>AI-Powered Data Management</h3>
@@ -93,7 +93,7 @@
           <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
             <div class="portfolio-card">
               <div class="portfolio-card-image">
-                <img src="assets/img/portfolio/hotel-erp-dashboard.jpg" class="img-fluid" alt="Hotel ERP Solution">
+                <img src="assets/img/portfolio/hotel.jpg" class="img-fluid" alt="Hotel ERP Solution">
                 <div class="portfolio-card-overlay">
                   <div class="portfolio-card-content">
                     <h3>Hotel ERP Solution</h3>
@@ -110,7 +110,7 @@
           <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
             <div class="portfolio-card">
               <div class="portfolio-card-image">
-                <img src="assets/img/portfolio/icps-online-monitoring.jpg" class="img-fluid" alt="ICPS Facilitation">
+                <img src="assets/img/portfolio/icps.jpg" class="img-fluid" alt="ICPS Facilitation">
                 <div class="portfolio-card-overlay">
                   <div class="portfolio-card-content">
                     <h3>ICPS Facilitation</h3>
@@ -127,7 +127,7 @@
           <div class="col-lg-6 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
             <div class="portfolio-card">
               <div class="portfolio-card-image">
-                <img src="assets/img/portfolio/leikapui-home.png" class="img-fluid" alt="Leikapui Studios OTT Platform">
+                <img src="assets/img/portfolio/leikapui-home.jpg" class="img-fluid" alt="Leikapui Studios OTT Platform">
                 <div class="portfolio-card-overlay">
                   <div class="portfolio-card-content">
                     <h3>Leikapui Studios</h3>

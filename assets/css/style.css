@@ -2553,8 +2553,8 @@ section {
 	bottom: 0;
 	background: linear-gradient(
 		135deg,
-		rgba(27, 189, 54, 0.95) 0%,
-		rgba(42, 225, 73, 0.9) 100%
+		rgba(139, 92, 246, 0.95) 0%,
+		rgba(168, 85, 247, 0.9) 100%
 	);
 	opacity: 0;
 	transition: opacity 0.4s ease;
